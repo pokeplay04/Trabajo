@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="formulario.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Mi Portfolio</title>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="i1">
+                <h1><center>Mi Portfolio personal</center></h1>
+            </div>
+            <div class="i2">
+                <h2>Mi currículum</h2>
+                <div class="parte1">
+                    <img src="descarga (1).jpg">
+                    <h2>Estudiante</h2>
+                    <h3>Conocimientos</h3>
+                    <ul>
+                        <li>Programación sencilla en Java</li>
+                        <li>HTML,CSS y Javascript</li>
+                        <li>Conocimiento ligero en base de datos</li>
+                    </ul>
+                </div>
+                <div class="parte2">
+                    <h1>Alejandro García Belmonte</h1>
+                    <h2> Estudios y títulos </h2>
+                    <p>-Bachillerato de Ciencias (2020 / 2023)</p>
+                    <p>-Educación Secundaria Obligatoria (2016 / 2020)</p>
+                    <p>-B1 Inglés (2023)</p>
+                    <h2>Puntos fuertes</h2>
+                    <p>-Versatilidad</p>
+                    <p>-Trabajo en equipo</p>
+                </div>    
+            </div>    
+        </div>
+        <div class="i3">
+            <h2>Contáctame!</h2>
+            <form>
+                <fieldset>
+                    <legend> Introduce tus datos </legend>
+                    Nombre: <input type="text" id="nombre" name="name" required>    
+                    <br>
+                    <br>
+                    Apellidos: <input type="text" id="apellidos" name="apellidos" required>
+                    <br>
+                    <br>
+                    Correo: <input type="text" id="correo" name="correo" required>
+                    <br>
+                    <br>
+                    <textarea name="cuadrito" placeholder="Algo que desees añadir" rows="5" cols="50" id="cuadrito"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar" onclick="mostrardatos()">
+                    <input type="submit" value="Limpiar" onclick="limpiar()">
+                </fieldset>
+            </form>
+        </div>
+
+    </body>
+</html>
